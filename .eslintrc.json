@@ -8,6 +8,8 @@
   ],
   "plugins": ["import"],
   "rules": {
+    "tailwindcss/no-custom-classname": "off",
+    "@typescript-eslint/no-require-imports": "off",
     "import/order": [
       "error",
       {
